@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mes repas préférés - Kamdem pavel</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #51e6a0;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .container {
+            padding: 30px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #32af75;
+        }
+
+        .intro {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .meals {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .meal-box {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            padding: 15px;
+            text-align: center;
+        }
+
+        .meal-box img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .meal-box h3 {
+            margin: 10px 0 5px;
+            color: #333;
+        }
+
+        .meal-box p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .back-link {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .back-link a {
+            text-decoration: none;
+            color: white;
+            background-color: #22c782;
+            padding: 12px 20px;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        .back-link a:hover {
+            background-color: #36c0c5;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Mes repas préférés</h1>
+    <p>Un voyage au cœur de la gastronomie camerounaise</p>
+</header>
+
+<div class="container">
+
+    <h2>Les mets camerounais</h2>
+
+    <p class="intro">
+        La cuisine camerounaise est très riche et variée. Elle reflète la diversité
+        culturelle du pays et rassemble les peuples autour de repas traditionnels.
+        Certains mets m'ont particulièrement marqué par leur goût, leur histoire
+        et leur importance dans nos traditions.
+    </p>
+
+    <div class="meals">
+
+        <div class="meal-box">
+            <img src="repas/koki.jpeg" alt="Koki">
+            <h3>Koki</h3>
+            <p>
+                Le koki est un plat traditionnel à base de haricots, souvent préparé
+                lors des cérémonies et grandes occasions.
+            </p>
+        </div>
+
+        <div class="meal-box">
+            <img src="repas/rape.jpeg" alt="Râpé" class="meal-box">
+            <h3>Le râpé</h3>
+            <p>
+                Le râpé est un mets apprécié pour son goût unique et son mode de
+                préparation traditionnel.
+            </p>
+        </div>
+
+        <div class="meal-box">
+            <img src="repas/sauce jaune.jpeg" alt="Sauce jaune Gombo">
+            <h3>Sauce jaune gombo</h3>
+            <p>
+                La sauce jaune gombo est mon plat préféré. Elle est savoureuse et très
+                représentative de la cuisine camerounaise.
+            </p>
+        </div>
+
+        <div class="meal-box">
+            <img src="repas/poulet.jpeg" alt="Poulet">
+            <h3>Poulet</h3>
+            <p>
+                Le poulet, préparé de différentes façons, accompagne souvent les repas
+                familiaux et festifs.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="back-link">
+        <a href="index.html">⬅ Retour à la page d'accueil</a>
+    </div>
+
+</div>
+
+</body>
+</html>
